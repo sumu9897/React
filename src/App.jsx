@@ -1,13 +1,12 @@
 
-function App() {
-  
 
-  const newLocal = <h1>Hello World</h1>
+
+const App = () => {
   return (
-    <>
-    {newLocal}
-    </>
-  )
-}
+    <div>
+     <h1>Hello</h1>
+    </div>
+  );
+};
 
-export default App
+export default App;
