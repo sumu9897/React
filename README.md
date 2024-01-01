@@ -8,6 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 - short hand if else in jmx file
+```bash
 const App = () => {
 
   let marks=90;
@@ -24,3 +25,4 @@ const App = () => {
 };
 
 export default App;
+```
