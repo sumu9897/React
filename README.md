@@ -63,3 +63,34 @@ const App = () => {
 
 export default App;
 ```
+JSX Loop Inside
+```bash
+
+const App = () => {
+  const city=['Dhaka','Khulna','Rajshahi','Barishal']
+  return (
+    <div>
+      <ul>
+      {
+        city.map((item,i)=>{
+          return <li key={i.toString}>{item}</li>
+
+        })
+      }
+      </ul>
+      
+    </div>
+  );
+};
+
+export default App;
+```
+
+<!-- ```bash
+``` -->
+<!-- ```bash
+``` -->
+<!-- ```bash
+``` -->
+<!-- ```bash
+``` -->
